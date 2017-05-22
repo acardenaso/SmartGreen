@@ -8,6 +8,12 @@
 html {
     color:white;
 }
+#nav-main {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+}
+
 #banner-main {
     border: 2px teal solid;
     height: 350px;
@@ -16,30 +22,32 @@ html {
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
 }
-    
+
 .input-field label {
-   color:white;
-   
+ color: black;
+    ;
 }
 .input-field input {
-    outline-color:white;
-    color:white;
-    
+    color: black;
+    border-bottom-color: black;
+}
+}
+.input-field label {
+    color: black;
 }
 #login {
+    position: fixed;
+    z-index: 40;
+    top: 0;
     border: 1px #4db6ac solid;
     border-radius: 15px;
     color: black;
     width: 300px;
     height: 350px;
-    position: absolute;
     right: 0;
     margin-right: 10px
 }
 
-#login label {
-    color:black;
-}
 
 
 nav ul a,

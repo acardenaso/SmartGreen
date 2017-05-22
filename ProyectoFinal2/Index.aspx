@@ -53,18 +53,14 @@
     </form>
   </div>
           </div>
-  <nav class="teal" role="navigation ">
+  <nav class="teal" id="nav-main" role="navigation ">
     <div class="nav-wrapper container">
       <a id="logo-container" style="color:white"  href="#" class="brand-logo"><img width="300" height="50" src="img/logo.png"/></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="waves-effect waves-light btn blue btnLogin">Iniciar sesion</a></li>
       </ul>
 
-
-      <ul id="nav-mobile" class="side-nav" style="transform: translateX(-100%);">
-        <li><a class="waves-effect waves-light btn btnLogin" href="#modal1">Iniciar sesion</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" class="btnLogin hide-on-large-only right"><i class="material-icons">menu</i></a>
     </div>
   </nav>
  <div class="row">
@@ -150,7 +146,13 @@
           <textarea id="textarea1" class="materialize-textarea"></textarea>
           <label for="textarea1">Mensaje</label>
         </div>
-      </div>
+      </div> 
+             <div class="row">
+        <div class="input-field col s12">
+          <button class="btn waves-effect waves blue">Enviar<i class="material-icons right">send</i></button>
+         
+        </div>
+      </div> 
      
     </form>
         </div>
@@ -187,13 +189,14 @@
         <div class="col l3 s12">
           <h5 class="white-text">Buscanos en</h5>
           <ul>
-             
             <li><a class="waves-effect waves-light btn social facebook">
-               <i class="fa fa-facebook"></i>facebook</a></li><br />
+               <i class="fa fa-facebook"></i>facebook</a></li>
+
              <li> <a class="waves-effect waves-light btn social google">
              <i class="fa fa-google"></i>Google+</a></li>
           </ul>
         </div>
+
       </div>
     </div>
     <div class="footer-copyright">
@@ -231,7 +234,7 @@
             });
            $("#login").hide();
            $(".btnLogin").click(function () {
-                $(".btnLogin").addClass("openLogin");
+               $(".btnLogin").addClass("openLogin");
             });
            $(document).click(function (event) {
                if ($(".btnLogin").hasClass("openLogin")) {
