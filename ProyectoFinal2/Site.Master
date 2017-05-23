@@ -90,12 +90,12 @@
             <!-- Termino Barra Dashboard -->
 
 
-            <!-- Inicio Navbar -->
+            <!-- Inicio Navbar -->  
         <nav>
             <div class="nav-wrapper  lime darken-2">
                 <ul class="right">
-                    <li><a href="#"><i title="Notificaciones" class="material-icons">forum</i></a></li>
-                    <li><a href="#"><i title="Configuracion" class="material-icons">settings</i></a></li>
+                    <li><a href="#"><i title="Notificaciones" class="material-icons">public</i></a></li>
+                    <li><a href="Configuracion.aspx"><i title="Configuracion" class="material-icons">settings</i></a></li>
                     <li><a href="#"><i title="Cerrar sesion" class="material-icons">power_settings_new</i></a></li>
                 </ul>
                 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
