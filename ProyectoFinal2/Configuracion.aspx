@@ -31,6 +31,10 @@
             <div class="collapsible-header"><span class="badge"><div class="switch"><label>Off<input type="checkbox"><span class="lever"></span>On</label></div></span><i class="material-icons">memory</i>Arduino</div>
             <div class="collapsible-body"><p>Nota: Apagar el dispositivo desactivará el control total del invernadero</p></div>
             </li>
+            <li>
+            <div class="collapsible-header"><span class="badge"><div class="switch"><label>Off<input type="checkbox"><span class="lever"></span>On</label></div></span><i class="material-icons">flash_on</i>Voltaje</div>
+            <div class="collapsible-body"><p>Nota: Regula el nivel del voltaje</p></div>
+            </li>
             </ul>
             </div>
       

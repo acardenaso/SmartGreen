@@ -74,9 +74,9 @@
 
                 <!-- Inicio Dropdown para ediar perfil -->
                 <ul id='dropdown1' class='dropdown-content'>
-                    <li><a href="#">Editar</a></li>
-                      <li class="divider"></li>
-                    <li><a href="#">Editar Fondo</a></li>
+                    <li><a href="ConfiguracionPerfil.aspx">Editar</a></li>
+               
+                
                 </ul>
                 <!-- Termino Dropdown para ediar perfil -->
 

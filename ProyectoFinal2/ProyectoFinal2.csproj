@@ -129,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Configuracion.aspx" />
+    <Content Include="ConfiguracionPerfil.aspx" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\materialize-social.css" />
     <Content Include="Content\photo.jpg" />
@@ -153,6 +154,7 @@
     <Content Include="img\hojas.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="WebService.asmx" />
+    <None Include="Content\json_paises.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Content\materialize.css" />
     <Content Include="img\plantas.jpg" />
@@ -201,6 +203,13 @@
     </Compile>
     <Compile Include="Configuracion.aspx.designer.cs">
       <DependentUpon>Configuracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfiguracionPerfil.aspx.cs">
+      <DependentUpon>ConfiguracionPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfiguracionPerfil.aspx.designer.cs">
+      <DependentUpon>ConfiguracionPerfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="EstadoActual.aspx.cs">
       <DependentUpon>EstadoActual.aspx</DependentUpon>
