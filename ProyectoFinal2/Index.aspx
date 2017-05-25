@@ -18,7 +18,7 @@
 <body class="teal lighten-1">
          <!-- Inicio Dropdown para iniciar sesion -->
   
-      <div id="login" class="grey lighten-4">
+      <div id="Notificaciones" class="grey lighten-4">
            <br />
 <div class="row">
      <b class="col s6 offset-s3">Conectate aqui!</b> 
@@ -57,10 +57,10 @@
     <div class="nav-wrapper container">
       <a id="logo-container" style="color:white"  href="#" class="brand-logo"><img width="300" height="50" src="img/logo.png"/></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="waves-effect waves-light btn blue btnLogin">Iniciar sesion</a></li>
+        <li><a class="waves-effect waves-light btn blue btnNotificaciones">Iniciar sesion</a></li>
       </ul>
 
-      <a href="#" class="btnLogin hide-on-large-only right"><i class="material-icons">menu</i></a>
+      <a href="#" class="btnNotificaciones hide-on-large-only right"><i class="material-icons">menu</i></a>
     </div>
   </nav>
  <div class="row">
@@ -216,7 +216,7 @@
                 var user = $("#txtUser").val();
                 var pass = $("#txtPassword").val();
                 $.ajax({
-                    url: "WebService.asmx/Login ",
+                    url: "WebService.asmx/Notificaciones ",
                     async: false,
                     data: {
                         "user": user,
@@ -232,22 +232,22 @@
                     }
                 });
             });
-           $("#login").hide();
-           $(".btnLogin").click(function () {
-               $(".btnLogin").addClass("openLogin");
+           $("#Notificaciones").hide();
+           $(".btnNotificaciones").click(function () {
+               $(".btnNotificaciones").addClass("openNotificaciones");
             });
            $(document).click(function (event) {
-               if ($(".btnLogin").hasClass("openLogin")) {
-                   $("#login").show();
-                   $(".btnLogin").hide();
+               if ($(".btnNotificaciones").hasClass("openNotificaciones")) {
+                   $("#Notificaciones").show();
+                   $(".btnNotificaciones").hide();
                } else {
-                   if ($(event.target).closest('#login').length == 0) {
-                       $("#login").hide();
-                       $(".btnLogin").show();
+                   if ($(event.target).closest('#Notificaciones').length == 0) {
+                       $("#Notificaciones").hide();
+                       $(".btnNotificaciones").show();
                    }
                }
-               if ($(event.target).closest('#login').length == 0) {
-                   $(".btnLogin").removeClass("openLogin");
+               if ($(event.target).closest('#Notificaciones').length == 0) {
+                   $(".btnNotificaciones").removeClass("openNotificaciones");
                   
                }
               

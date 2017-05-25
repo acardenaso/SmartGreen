@@ -15,7 +15,7 @@ namespace ProyectoFinal2
     {
 
         [WebMethod]
-        public void Login()
+        public void Notificaciones()
         {
             string[] registro1 = "acardenas,1414".Split(',');
             var formVariables = Context.Request.Form;
