@@ -62,20 +62,24 @@
 
 
     </script>
+    <div class="row">
+        <h4 class="col s12 m12">Parametros</h4>
+    </div>
+
  
     <div class="row">
+        <div class="card-panel white">
        <div class="grid-example col s12 m6">  
            <canvas id="myData"></canvas>
        </div>
         <ul class="collection with-header">
-        <li  id="item1" class="collection-header"><h4>Parametros</h4></li>
         <li  id="item2"class="collection-item"><div><span>Luminosidad</span><span class="secondary-content">50</span></div></li>
         <li  id="item3"class="collection-item"><div><span>Humedad</span><span class="secondary-content">50%</span></div></li>
         <li  id="item4"class="collection-item"><div><span>Temperatura</span><span class="secondary-content">30°</span></div></li>
         <li  id="item5"class="collection-item"><div><span>PH</span><span class="secondary-content">50</span></div></li>
-      </ul>
+        </ul>
        </div>
- 
+      </div>
    
   
 </asp:Content>

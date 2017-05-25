@@ -1,6 +1,20 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ConfiguracionPerfil.aspx.cs" Inherits="ProyectoFinal2.ConfiguracionPerfil" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        @media only screen and (min-width: 601px){
+            .divisorcustom {
+                border-right:1px #E6E6E6 solid;
+                 border-bottom:none;
+            }
+    }
+        @media only screen and (min-width: 0px) and (max-width: 600px) {
+            .divisorcustom {
+                border-right: none;
+                border-bottom:1px #E6E6E6 solid;
+            }
+    }
 
+    </style>
   
   <div class="row">
     <div class="col s12 m8">
@@ -23,20 +37,17 @@
         }
     </style>
 
-
-
-
-
     <div id="perfil" class="row">
-        <div style="display:flex;align-items:center;text-align: center;height:350px" class="col s12 m4">
-        <img style="vertical-align:middle;display:inline-block"  class="materialboxed" width="250" src="content/photo.jpg">
-      
-    </div>
-
-      <div class="col s12 m8">
-          
-        <div class="card-panel white">
-            <div class="row">
+      <div class="col s12 m12">
+        <div class="row card-panel white">
+          <div style="align-items:center;" class="divisorcustom col s12 m12 l5">
+             <h6 style="text-align:center" class="col s12"><b style="color:gray">Foto de Perfil</b></h6>
+            <div style="display:flex;height:330px" class="col s12">
+                <div class="row"> <img style="width:300px;border-radius:10px;border:1px #afb42b solid"  class="materialboxed" src="content/photo.jpg"> 
+                </div>
+              </div>
+             </div>
+            <div class="col s12 m12 l5">
           <div class="input-field col s12">
             <i class="material-icons prefix">person_pin</i>
             <input id="phone" name="phone" type="text" class="validate">
@@ -59,15 +70,10 @@
                
                     <label>País</label>
                   </div>
+                </div>
         </div>
       </div>
     </div>
-
-         
-    
-
-         </div>
-
 
     <div  id="Email_Contraseña" class="row">
       <div class="col s12 m8">
