@@ -85,25 +85,22 @@
             <input id="txtNuevaPass" name="txtNuevaPass" type="text" class="validate">
             <label for="txtNuevaPass">Nueva Contraseña</label>
           </div>
-          <a href="#" class="btn blue col offset-s4 offset-m5 offset-l3">Guardar Cambios</a>
-        </div>
-      </div>
-
-           <div class="card-panel white col s12 l5 offset-l1">
-            <div class="row">
-         <div class="input-field col s12">
+             <div class="input-field col s12">
             <i class="material-icons prefix">email</i>
             <input id="txtEmailActual" name="txtEmailActual" type="text" class="validate">
             <label for="txtEmailActual">Email actual</label>
           </div>   
+
             <div class="input-field col s12">
             <i class="material-icons prefix">email</i>
             <input id="txtEmailNuevo" name="txtEmailNuevo" type="text" class="validate">
             <label for="txtEmailNuevo">Nuevo Email</label>
           </div>  
+
           <a href="#" class="btn blue col offset-s4 offset-m5 offset-l3">Guardar Cambios</a>
         </div>
       </div>
+
          </div>
 
     <script>
