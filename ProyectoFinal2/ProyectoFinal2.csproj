@@ -156,6 +156,7 @@
     <Content Include="img\logo.png" />
     <Content Include="Notificaciones.aspx" />
     <Content Include="Parametros.aspx" />
+    <Content Include="Tips.aspx" />
     <Content Include="WebService.asmx" />
     <None Include="Content\json_paises.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tips.aspx.cs">
+      <DependentUpon>Tips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tips.aspx.designer.cs">
+      <DependentUpon>Tips.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
